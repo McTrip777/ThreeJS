@@ -7,14 +7,14 @@
 html,
 body
 {
-    height: 100vh;
+    height: 200vh;
     font-family: 'Poppins';
     background-color: rgb(24,24,24);
 }
 
 .webgl
 {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     outline: none;
@@ -31,8 +31,4 @@ h1{
     font-size: 8em;
     text-transform: uppercase;
     color: white;
-}
-
-section{
-    height: 100vh;
 }
